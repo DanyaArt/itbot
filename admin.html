@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Админ-панель — IT-Профориентатор</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="admin-styles.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="nav-container">
+			<div class="nav-logo"><i class="fas fa-tools"></i><span>Админ-панель</span></div>
+			<ul class="nav-menu">
+				<li><a href="index.html" class="nav-link">Сайт</a></li>
+				<li><a href="universities.html" class="nav-link">Вузы</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<main class="container">
+		<section class="grid">
+			<div class="card stat">
+				<div class="stat-icon"><i class="fas fa-university"></i></div>
+				<div class="stat-body">
+					<div class="stat-title">Уникальных вузов</div>
+					<div id="uniqueCount" class="stat-value">—</div>
+				</div>
+			</div>
+			<div class="card stat">
+				<div class="stat-icon"><i class="fas fa-list-ol"></i></div>
+				<div class="stat-body">
+					<div class="stat-title">Всего записей</div>
+					<div id="totalCount" class="stat-value">—</div>
+				</div>
+			</div>
+			<div class="card">
+				<h3>Синхронизация сайта</h3>
+				<p>Обновляет файл <code>universities.json</code> из базы данных бота.</p>
+				<div class="actions">
+					<button id="btnSync" class="btn btn-primary"><i class="fas fa-rotate"></i> Синхронизировать</button>
+					<span id="syncInfo" class="sync-info"></span>
+				</div>
+			</div>
+		</section>
+
+		<section class="card">
+			<h3>Список вузов (уникальные)</h3>
+			<div id="uniList" class="uni-list"></div>
+		</section>
+	</main>
+
+	<script src="admin-script.js"></script>
+</body>
+</html> 

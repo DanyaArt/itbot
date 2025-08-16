@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вузы России — IT-Профориентатор</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav class="navbar" style="position: sticky;">
+		<div class="nav-container">
+			<div class="nav-logo">
+				<i class="fas fa-robot"></i>
+				<span>IT-Профориентатор</span>
+			</div>
+			<ul class="nav-menu">
+				<li><a href="index.html#home" class="nav-link">Главная</a></li>
+				<li><a href="index.html#about" class="nav-link">О боте</a></li>
+				<li><a href="https://t.me/ProfOrientBel_bot" target="_blank" class="nav-link">Пройти тест</a></li>
+				<li><a href="universities.html" class="nav-link active">Вузы</a></li>
+				<li><a href="index.html#contact" class="nav-link">Контакты</a></li>
+			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</div>
+	</nav>
+
+	<section class="uni-header">
+		<div class="container">
+			<h1 class="section-title">Вузы России</h1>
+			<p class="uni-subtitle">Список университетов с IT-специализациями бота</p>
+			<div class="uni-stats">
+				<span class="stat-item">
+					<i class="fas fa-university"></i>
+					<strong id="uniqueUniCount">22</strong>
+				</span>
+				<span class="stat-item">
+					<i class="fas fa-graduation-cap"></i>
+					<strong id="totalSpecsCount">81</strong> 
+				</span>
+			</div>
+			<div class="filter-bar">
+				<div class="filter-group">
+					<i class="fas fa-search"></i>
+					<input id="searchInput" type="text" placeholder="Поиск по названию или городу" aria-label="Поиск вузов">
+				</div>
+				<div class="filter-select">
+					<i class="fas fa-filter"></i>
+					<select id="specFilter" aria-label="Фильтр по специализации">
+						<option value="">Все специализации</option>
+					</select>
+				</div>
+				<button id="refreshBtn" class="refresh-btn" title="Обновить данные">
+					<i class="fas fa-sync-alt"></i>
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="uni-list">
+		<div class="container">
+			<div id="uniGrid" class="uni-grid"></div>
+		</div>
+	</section>
+
+	<script src="script.js"></script>
+	<script>
+		// Данные будут загружаться из universities.json
+		// Встроенные данные убраны для использования актуальных данных
+	</script>
+	<script src="universities.js"></script>
+
+	<!-- Футер -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h3>IT-Профориентатор</h3>
+					<p>Помогаем найти свой путь в мире IT-технологий</p>
+				</div>
+				<div class="footer-section">
+					<h3>Ссылки</h3>
+					<ul>
+						<li><a href="index.html#home">Главная</a></li>
+						<li><a href="index.html#about">О боте</a></li>
+						<li><a href="https://t.me/ProfOrientBel_bot" target="_blank">Тест</a></li>
+						<li><a href="universities.html">Вузы</a></li>
+						<li><a href="index.html#contact">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h3>Социальные сети</h3>
+					<div class="social-links">
+						<a href="https://t.me/danart31" target="_blank"><i class="fab fa-telegram"></i></a>
+						<a href="#"><i class="fab fa-vk"></i></a>
+						<a href="#"><i class="fab fa-whatsapp"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 IT-Профориентатор. Все права защищены.</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html> 

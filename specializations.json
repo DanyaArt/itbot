@@ -1,0 +1,83 @@
+[
+  {
+    "id": 8,
+    "name": "AI/ML инженерия",
+    "description": "Искусственный интеллект и машинное обучение",
+    "tech_score": 0.8,
+    "analytic_score": 0.9,
+    "creative_score": 0.5,
+    "careers": "ML-инженер, AI-разработчик, Исследователь"
+  },
+  {
+    "id": 2,
+    "name": "Data Science",
+    "description": "Анализ и обработка данных",
+    "tech_score": 0.6,
+    "analytic_score": 0.9,
+    "creative_score": 0.3,
+    "careers": "Data Scientist, Аналитик данных, ML-инженер"
+  },
+  {
+    "id": 5,
+    "name": "DevOps инженерия",
+    "description": "Автоматизация процессов разработки",
+    "tech_score": 0.8,
+    "analytic_score": 0.7,
+    "creative_score": 0.3,
+    "careers": "DevOps инженер, Системный администратор, SRE"
+  },
+  {
+    "id": 7,
+    "name": "Game Development",
+    "description": "Разработка игр",
+    "tech_score": 0.6,
+    "analytic_score": 0.4,
+    "creative_score": 0.8,
+    "careers": "Game Developer, Геймдизайнер, 3D-художник"
+  },
+  {
+    "id": 3,
+    "name": "UX/UI дизайн",
+    "description": "Дизайн пользовательского интерфейса",
+    "tech_score": 0.3,
+    "analytic_score": 0.5,
+    "creative_score": 0.9,
+    "careers": "UX/UI дизайнер, Графический дизайнер, Product Designer"
+  },
+  {
+    "id": 9,
+    "name": "ДАА",
+    "description": "вувацукаук",
+    "tech_score": 0.0,
+    "analytic_score": 0.0,
+    "creative_score": 1.0,
+    "careers": "укпаукпук"
+  },
+  {
+    "id": 4,
+    "name": "Кибербезопасность",
+    "description": "Защита информационных систем",
+    "tech_score": 0.7,
+    "analytic_score": 0.8,
+    "creative_score": 0.4,
+    "careers": "Специалист по безопасности, Пентестер, Аналитик угроз"
+  },
+  {
+    "id": 6,
+    "name": "Мобильная разработка",
+    "description": "Разработка мобильных приложений",
+    "tech_score": 0.7,
+    "analytic_score": 0.5,
+    "creative_score": 0.6,
+    "careers": "Мобильный разработчик, iOS/Android разработчик"
+  },
+  {
+    "id": 1,
+    "name": "Программная инженерия",
+    "description": "Разработка программного обеспечения",
+    "tech_score": 0.8,
+    "analytic_score": 0.6,
+    "creative_score": 0.4,
+    "careers": "Программист, Разработчик, Архитектор ПО"
+  }
+]
