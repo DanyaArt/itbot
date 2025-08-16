@@ -32,6 +32,22 @@
     "specialization": "Кибербезопасность"
   },
   {
+    "name": "МГУ им. М.В. Ломоносова",
+    "city": "Москва",
+    "score_min": 260,
+    "score_max": 290,
+    "url": "https://www.msu.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
+    "name": "МГУ им. М.В. Ломоносова",
+    "city": "Москва",
+    "score_min": 255,
+    "score_max": 285,
+    "url": "https://www.msu.ru",
+    "specialization": "Мобильная разработка"
+  },
+  {
     "name": "МФТИ",
     "city": "Долгопрудный",
     "score_min": 260,
@@ -64,6 +80,22 @@
     "specialization": "DevOps инженерия"
   },
   {
+    "name": "МФТИ",
+    "city": "Долгопрудный",
+    "score_min": 250,
+    "score_max": 280,
+    "url": "https://mipt.ru",
+    "specialization": "Кибербезопасность"
+  },
+  {
+    "name": "МФТИ",
+    "city": "Долгопрудный",
+    "score_min": 245,
+    "score_max": 275,
+    "url": "https://mipt.ru",
+    "specialization": "Мобильная разработка"
+  },
+  {
     "name": "ВШЭ",
     "city": "Москва",
     "score_min": 250,
@@ -94,6 +126,30 @@
     "score_max": 280,
     "url": "https://www.hse.ru",
     "specialization": "Game Development"
+  },
+  {
+    "name": "ВШЭ",
+    "city": "Москва",
+    "score_min": 250,
+    "score_max": 285,
+    "url": "https://www.hse.ru",
+    "specialization": "AI/ML инженерия"
+  },
+  {
+    "name": "ВШЭ",
+    "city": "Москва",
+    "score_min": 235,
+    "score_max": 270,
+    "url": "https://www.hse.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
+    "name": "ВШЭ",
+    "city": "Москва",
+    "score_min": 230,
+    "score_max": 265,
+    "url": "https://www.hse.ru",
+    "specialization": "Мобильная разработка"
   },
   {
     "name": "ИТМО",
@@ -136,6 +192,30 @@
     "specialization": "DevOps инженерия"
   },
   {
+    "name": "ИТМО",
+    "city": "Санкт-Петербург",
+    "score_min": 245,
+    "score_max": 280,
+    "url": "https://itmo.ru",
+    "specialization": "Data Science"
+  },
+  {
+    "name": "ИТМО",
+    "city": "Санкт-Петербург",
+    "score_min": 235,
+    "score_max": 270,
+    "url": "https://itmo.ru",
+    "specialization": "Мобильная разработка"
+  },
+  {
+    "name": "ИТМО",
+    "city": "Санкт-Петербург",
+    "score_min": 230,
+    "score_max": 265,
+    "url": "https://itmo.ru",
+    "specialization": "Кибербезопасность"
+  },
+  {
     "name": "СПбГУ",
     "city": "Санкт-Петербург",
     "score_min": 240,
@@ -160,6 +240,22 @@
     "specialization": "Кибербезопасность"
   },
   {
+    "name": "СПбГУ",
+    "city": "Санкт-Петербург",
+    "score_min": 240,
+    "score_max": 275,
+    "url": "https://spbu.ru",
+    "specialization": "AI/ML инженерия"
+  },
+  {
+    "name": "СПбГУ",
+    "city": "Санкт-Петербург",
+    "score_min": 230,
+    "score_max": 265,
+    "url": "https://spbu.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
     "name": "СПбПУ",
     "city": "Санкт-Петербург",
     "score_min": 235,
@@ -182,6 +278,22 @@
     "score_max": 260,
     "url": "https://spbstu.ru",
     "specialization": "Кибербезопасность"
+  },
+  {
+    "name": "СПбПУ",
+    "city": "Санкт-Петербург",
+    "score_min": 220,
+    "score_max": 255,
+    "url": "https://spbstu.ru",
+    "specialization": "Мобильная разработка"
+  },
+  {
+    "name": "СПбПУ",
+    "city": "Санкт-Петербург",
+    "score_min": 235,
+    "score_max": 270,
+    "url": "https://spbstu.ru",
+    "specialization": "Data Science"
   },
   {
     "name": "СПбГХПА им. Штиглица",
@@ -232,6 +344,22 @@
     "specialization": "Мобильная разработка"
   },
   {
+    "name": "МГТУ им. Баумана",
+    "city": "Москва",
+    "score_min": 245,
+    "score_max": 280,
+    "url": "https://bmstu.ru",
+    "specialization": "AI/ML инженерия"
+  },
+  {
+    "name": "МГТУ им. Баумана",
+    "city": "Москва",
+    "score_min": 240,
+    "score_max": 275,
+    "url": "https://bmstu.ru",
+    "specialization": "Data Science"
+  },
+  {
     "name": "МИРЭА",
     "city": "Москва",
     "score_min": 230,
@@ -262,6 +390,22 @@
     "score_max": 270,
     "url": "https://mirea.ru",
     "specialization": "AI/ML инженерия"
+  },
+  {
+    "name": "МИРЭА",
+    "city": "Москва",
+    "score_min": 230,
+    "score_max": 265,
+    "url": "https://mirea.ru",
+    "specialization": "Data Science"
+  },
+  {
+    "name": "МИРЭА",
+    "city": "Москва",
+    "score_min": 215,
+    "score_max": 250,
+    "url": "https://mirea.ru",
+    "specialization": "DevOps инженерия"
   },
   {
     "name": "МГХПА им. Строганова",
@@ -320,6 +464,22 @@
     "specialization": "AI/ML инженерия"
   },
   {
+    "name": "НГУ",
+    "city": "Новосибирск",
+    "score_min": 225,
+    "score_max": 260,
+    "url": "https://www.nsu.ru",
+    "specialization": "Кибербезопасность"
+  },
+  {
+    "name": "НГУ",
+    "city": "Новосибирск",
+    "score_min": 220,
+    "score_max": 255,
+    "url": "https://www.nsu.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
     "name": "НГУАДИ",
     "city": "Новосибирск",
     "score_min": 200,
@@ -368,6 +528,22 @@
     "specialization": "Кибербезопасность"
   },
   {
+    "name": "УрФУ",
+    "city": "Екатеринбург",
+    "score_min": 205,
+    "score_max": 240,
+    "url": "https://urfu.ru",
+    "specialization": "Мобильная разработка"
+  },
+  {
+    "name": "УрФУ",
+    "city": "Екатеринбург",
+    "score_min": 220,
+    "score_max": 255,
+    "url": "https://urfu.ru",
+    "specialization": "AI/ML инженерия"
+  },
+  {
     "name": "УрГАХУ",
     "city": "Екатеринбург",
     "score_min": 190,
@@ -414,6 +590,22 @@
     "score_max": 240,
     "url": "https://kpfu.ru",
     "specialization": "Кибербезопасность"
+  },
+  {
+    "name": "КФУ",
+    "city": "Казань",
+    "score_min": 200,
+    "score_max": 235,
+    "url": "https://kpfu.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
+    "name": "КФУ",
+    "city": "Казань",
+    "score_min": 215,
+    "score_max": 250,
+    "url": "https://kpfu.ru",
+    "specialization": "AI/ML инженерия"
   },
   {
     "name": "КГАСУ",
@@ -464,6 +656,14 @@
     "specialization": "Кибербезопасность"
   },
   {
+    "name": "ВГУ",
+    "city": "Воронеж",
+    "score_min": 195,
+    "score_max": 230,
+    "url": "https://www.vsu.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
     "name": "ВГТУ",
     "city": "Воронеж",
     "score_min": 195,
@@ -486,6 +686,14 @@
     "score_max": 220,
     "url": "https://www.vgasu.ru",
     "specialization": "Мобильная разработка"
+  },
+  {
+    "name": "ВГТУ",
+    "city": "Воронеж",
+    "score_min": 180,
+    "score_max": 215,
+    "url": "https://www.vgasu.ru",
+    "specialization": "Кибербезопасность"
   },
   {
     "name": "БелГУ",
@@ -520,6 +728,22 @@
     "specialization": "UX/UI дизайн"
   },
   {
+    "name": "БелГУ",
+    "city": "Белгород",
+    "score_min": 180,
+    "score_max": 215,
+    "url": "https://bsu.edu.ru",
+    "specialization": "DevOps инженерия"
+  },
+  {
+    "name": "БелГУ",
+    "city": "Белгород",
+    "score_min": 175,
+    "score_max": 210,
+    "url": "https://bsu.edu.ru",
+    "specialization": "Мобильная разработка"
+  },
+  {
     "name": "БГТУ им. Шухова",
     "city": "Белгород",
     "score_min": 185,
@@ -550,5 +774,13 @@
     "score_max": 205,
     "url": "https://www.bstu.ru",
     "specialization": "UX/UI дизайн"
+  },
+  {
+    "name": "БГТУ им. Шухова",
+    "city": "Белгород",
+    "score_min": 165,
+    "score_max": 200,
+    "url": "https://www.bstu.ru",
+    "specialization": "Кибербезопасность"
   }
 ]

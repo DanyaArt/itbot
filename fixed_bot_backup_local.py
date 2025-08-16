@@ -191,6 +191,7 @@ def sync_universities_to_json() -> None:
 			)
 			.select_from(University)
 			.join(Specialization, Specialization.id == University.specialization_id, isouter=True)
+			.order_by(University.name, Specialization.name)
 		).all()
 
 		data = []
@@ -206,6 +207,8 @@ def sync_universities_to_json() -> None:
 
 		with open(UNIVERSITIES_JSON, "w", encoding="utf-8") as f:
 			json.dump(data, f, ensure_ascii=False, indent=2)
+		
+		print(f"[SYNC] Exported {len(data)} records to {UNIVERSITIES_JSON}")
 
 
 # ---------------------------
